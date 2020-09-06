@@ -1,0 +1,86 @@
+
+
+/* Add background color to the top navigation */
+.navbar {
+    background-color: #402016;
+    overflow: hidden;
+    color: #F6710B;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-link {
+  color: white;
+}
+  
+/* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #F5B343;
+    color: #F6710B;
+  }
+
+  .btn {
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+  }
+    
+  /* Text Block */
+  .text-block {
+  top: 50px;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #402016;
+  background-color: #E59E28;
+  text-align: center;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: -16px;
+    width: 100%;
+    background-color: #E59E28;
+    color: black;
+    text-align: left;
+    font-size: small;
+ }
+
+ /* View All Birds page background, & card body/item background */
+ #AllPage {
+   background-color: #E59E28;
+ }
+
+ .card-body {
+  background-color: #EDC177;
+ }
+
+ .list-group-item {
+   background-color: #EDC177;
+ }
+
+ .w3-container {
+   padding: 10px;
+ }
+
+.card-deck {
+  float: left;
+}
